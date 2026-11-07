@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cjx3tqn3qfs60"]
+
+[ext_resource type="Script" uid="uid://bsojegrf072d2" path="res://scripts/grid.gd" id="1_nnsk1"]
+[ext_resource type="Script" uid="uid://3g2cxy8e1ccx" path="res://scripts/snake.gd" id="2_rwgxs"]
+
+[node name="world" type="Node2D" unique_id=948366318]
+
+[node name="grid" type="Node2D" parent="." unique_id=1068485640]
+script = ExtResource("1_nnsk1")
+
+[node name="snake" type="Node2D" parent="." unique_id=1620538436]
+script = ExtResource("2_rwgxs")
