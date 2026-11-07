@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bsojegrf072d2" path="res://scripts/grid.gd" id="1_nnsk1"]
 [ext_resource type="Script" uid="uid://3g2cxy8e1ccx" path="res://scripts/snake.gd" id="2_rwgxs"]
+[ext_resource type="Script" uid="uid://c2cgi5thy65je" path="res://scripts/spawner_food.gd" id="3_4wyf3"]
 
 [node name="world" type="Node2D" unique_id=948366318]
 
@@ -9,4 +10,8 @@
 script = ExtResource("1_nnsk1")
 
 [node name="snake" type="Node2D" parent="." unique_id=1620538436]
+unique_name_in_owner = true
 script = ExtResource("2_rwgxs")
+
+[node name="spawner_food" type="Node2D" parent="." unique_id=221960735]
+script = ExtResource("3_4wyf3")
